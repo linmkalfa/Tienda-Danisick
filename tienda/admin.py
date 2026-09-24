@@ -29,6 +29,4 @@ class PedidoAdmin(admin.ModelAdmin):
     list_filter = ("estado", "fecha")
     inlines = [DetallePedidoInline]
 
-admin.site.register(Cliente)
-admin.site.register(Pedido)
 admin.site.register(DetallePedido)
